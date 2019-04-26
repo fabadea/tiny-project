@@ -9,8 +9,11 @@ In my project, I have aimed at bringing forward Sky’s identity/values. The bac
 ## Running
 
 >Open the Project folder using Visual Studio Code / Node.js
+
 >Open terminal and type "npm install" in order to install all the dependencies
+
 and
+
 >"npm start" in order to launch the web page in your default browser
 
 I've run the web page with chrome and firefox and worked as I expected with both of them
