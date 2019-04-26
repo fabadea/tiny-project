@@ -1,12 +1,12 @@
-#Neural
+# Neural
 
-##The idea
+## The idea
 
 Inspired by your brief, I’ve built Neural,  a personal assistant who can help defeat Loki by providing useful information about him, to resemble  J.A.R.V.I.S. 
 
 In my project, I have aimed at bringing forward Sky’s identity/values. The background is following the colours of Sky’s logo.  The idea to built the project as a challenge for which the chances to win are higher if you are working within a team  came from the fact that some of Sky’s values are team-working and collaboration.
 
-##Running
+## Running
 
 >Open the Project folder using Visual Studio Code / Node.js
 >Open terminal and type "npm install" in order to install all the dependencies
@@ -15,7 +15,7 @@ and
 
 I've run the web page with chrome and firefox and worked as I expected with both of them
 
-##Describing Neural and his features:
+## Describing Neural and his features:
 
 **Header / Header.js:** 
 - Left side / HulkComponent.js:  contains a short movie, from assets folder.
