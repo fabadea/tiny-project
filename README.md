@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Neural
 
-## Available Scripts
+##The idea
 
-In the project directory, you can run:
+Inspired by your brief, I’ve built Neural,  a personal assistant who can help defeat Loki by providing useful information about him, to resemble  J.A.R.V.I.S. 
 
-### `npm start`
+In my project, I have aimed at bringing forward Sky’s identity/values. The background is following the colours of Sky’s logo.  The idea to built the project as a challenge for which the chances to win are higher if you are working within a team  came from the fact that some of Sky’s values are team-working and collaboration.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##Running
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+>Open the Project folder using Visual Studio Code / Node.js
+>Open terminal and type "npm install" in order to install all the dependencies
+and
+>"npm start" in order to launch the web page in your default browser
 
-### `npm test`
+I've run the web page with chrome and firefox and worked as I expected with both of them
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Describing Neural and his features:
 
-### `npm run build`
+**Header / Header.js:** 
+- Left side / HulkComponent.js:  contains a short movie, from assets folder.
+- Middle / FileSystem.js: you will find the FileSystem icons (react-icons package, installed via npm). You can light them up by pressing any of the following letters: “f” or “F”
+- Right side / LokiComponent.js: is wrapped a short movie, this time embedded from youtube (react-iframe package, installed via npm).
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Middle / Main.js:**
+- Left side / Leftside.js: I’ve implemented a real google map using an API call. This map is useful to locate Loki in real time and is implemented using google-map-react package.
+- Middle / Middle.js: this is where Neural is “living”, a neuronal network which is capable to provide useful info. This neuronal network effect is obtained by implementing react-particles package.
+- Rightside / Rightside.js: here are some images of the enemy, from assets folder. You can light them up by pressing any of the following letters: [ 'q', 'w', 'e', 'r', 't', 'y', 'Q', 'W', 'E', 'R', 'T', 'Y'].
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Footer / Footer.js**
+Here is the welcome message and the report provided by Neural. 
